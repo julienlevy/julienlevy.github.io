@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'futura-pt';
+}
+
+html, body {
+  font-family: 'futura-pt';
+  font-size: 1.3em;
+  font-weight: 100;
+  padding: 0;
+  margin: 0;
+  background-color: #F2F1EF;
+}
+
+.homepage {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: -webkit-linear-gradient(#1C2E40, #101010); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#1C2E40, #101010); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#1C2E40, #101010); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#1C2E40, #101010); /* Standard syntax */
+    background-size: cover;
+    color: white;
+}
+
+.homepage-wrapper {
+  position: fixed;
+  top: 100px;
+  width: 100%;
+  z-index: 2;
+}
+
+.homepage .summary {
+  margin-top: 50px;
+}
+
+.homepage .name,
+.homepage .summary,
+.homepage .small-summary {
+  text-align: center;
+}
+
+.presentation {
+  background-color: #F2F1EF;
+  position: relative;
+  z-index: 3;
+  margin-top: 150px;
+}
+
+.presentation-wrapper {
+  border-left: 1px solid grey;
+  padding: 15px;
+}
+
+.profile-photo {
+  padding: 0;
+  border-radius: 1000px;
+}
+
+.projects {
+  margin-top: 100px;
+  background-color: rgb(250,250,250);
+  padding-top: 100px;
+  position: relative;
+  z-index: 3;
+}
+
+.project {
+  border-radius: 3px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  border: 1px solid rgba(0,0,0,.25);
+  background-color: #FFF;
+}
+
+.project-title {
+    color: orange;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.project-description {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.project i {
+  color:orange;
+}
+/*
+.project img {
+  margin-top: 50px;
+}*/
+
+.project a {
+  color:orange;
+}
+
+.education {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.education-unit {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid grey;
+}
