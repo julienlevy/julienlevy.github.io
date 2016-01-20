@@ -60,6 +60,9 @@ html, body {
   border-radius: 1000px;
 }
 
+.socialicons {
+  margin-top: 100px;
+}
 .projects {
   margin-top: 1px;
   padding-bottom: 100px;
