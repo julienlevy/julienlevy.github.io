@@ -60,7 +60,8 @@ html, body {
 }
 
 .projects {
-  margin-top: 100px;
+  margin-top: 1px;
+  padding-bottom: 100px;
   background-color: rgb(250,250,250);
   padding-top: 100px;
   position: relative;
@@ -81,7 +82,7 @@ html, body {
   color: white
 }
 .dscribe {
-  background-image: url('../images/dscribe-background.jpg');
+  background-image: url('../images/dscribe-background.png');
   color: white
 }
 .pizza-now {
@@ -93,8 +94,11 @@ html, body {
   margin-top: 20px;
   margin-bottom: 20px;
 }
+.project-image {
+  margin-bottom: 50px;
+}
 
-.project i {
+.theodo i {
   color:orange;
 }
 /*
@@ -102,7 +106,7 @@ html, body {
   margin-top: 50px;
 }*/
 
-.project a {
+.theodo a {
   color:orange;
 }
 
